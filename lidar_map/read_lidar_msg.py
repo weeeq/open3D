@@ -286,7 +286,7 @@ def process_json_files(input_dir: str, output_dir: str) -> None:
 
 if __name__ == "__main__":
     # 使用示例
-    file_path = "go2demodata/go2demodata/utlidar_cloud_deskewed.msg"
+    file_path = "D:\code\open3D\point_cloud.msg"
     output_dir = "output_json_frames"
     
     # 读取数据并保存每个数据包为 JSON 文件
